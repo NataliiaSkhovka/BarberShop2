@@ -1,0 +1,51 @@
+.contacts {
+	background-color: #191c26;
+	background-image: url(../images/Bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top 50% left calc(50% + 312px);
+}
+
+.contacts__container {
+	display: flex;
+}
+
+.contacts__left-side {
+	flex-basis: 50%;
+}
+
+.contacts__right-side {
+	flex-basis: 50%;
+	margin-left: 100px;
+}
+
+.contatcs__uppertitle {
+	color: #ffffff;
+}
+
+.contacts__address {
+	margin-bottom: 70px;
+
+	font-style: normal;
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: #9da4bd;
+}
+
+.contacts__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.contacts__link {
+	width: 270px;
+	display: flex;
+	gap: 16px;
+}
+
+.contacts__scedule {
+	font-size: 18px;
+	line-height: 1.67;
+	letter-spacing: 0.02em;
+	color: #9da4bd;
+}
