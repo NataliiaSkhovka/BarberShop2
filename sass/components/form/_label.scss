@@ -35,18 +35,27 @@
 	font-size: 11px;
 	user-select: none;
 }
-
+.icon-modal{
+	fill: #ff6c00;
+}
+.input{
+	border:1px solid  #ff6c00;
+	border-radius:25px ;
+}
+.modal__js-choice{
+	border:1px solid  #ff6c00;
+	border-radius:25px ;
+}
 /* payment */
 .payment__icon-check{
 	align-items: center;
 	justify-content: center;
 	width: 36px;
 	height: 32px;
-	outline: 0px solid #9da4bd;
+	/*outline: 0px solid #ff6c00;*/
 	outline-offset: -1px;
 	border-radius: 6px;
 
-	transition: outline-color 250ms, background-color 250ms;
 }
 .payment__group {
 	display: flex;
@@ -55,20 +64,10 @@
 }
 
 .payment__icon {
-	fill: #9da4bd;
-	transition: 400ms;
+	fill: #000;
 	
 }
-.payment__input:focus + .payment__icon-check {
-	background-color: #ff6c00;
-	fill: #090b13;
-	outline-color: #ff6c00;
-}
-.payment__input:checked + .payment__icon-check {
-	background-color: #ff6c00;
-	fill: #090b13;
-	outline-color: #ff6c00;
-}
+
 
 /* choises select */
 .choices__inner {

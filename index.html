@@ -123,7 +123,7 @@
 							нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной
 							волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!
 						</p>
-						<button class="btn btn--mode-light" type="button">онлайн-запись</button>
+						<button class="btn btn--mode-light" type="button" data-modal-open>онлайн-запись</button>
 					</div>
 				</div>
 			</section>
@@ -175,7 +175,7 @@
 							</ul>
 						</li>
 					</ul>
-					<button class="btn btn--mode-dark price__btn" type="button">онлайн-запись</button>
+					<button class="btn btn--mode-dark price__btn" type="button" data-modal-open> онлайн-запись</button>
 				</div>
 			</section>
 
@@ -615,26 +615,26 @@
 					<strong>Присоединяйтесь к нам!</strong>
 					<label>
 						<span>Имя* </span>
-						<input type="text" name="user-name" placeholder="" />
+						<input class="input" type="text" name="user-name" placeholder="" />
 
-						<svg width="20" height="20">
+						<svg class="icon-modal" width="20" height="20">
 							<use href="./images/symbol-defs.svg#icon-user"></use>
 						</svg>
 					</label>
 
 					<label>
 						<span>Почта* </span>
-						<input type="text" name="user-name" placeholder="" />
+						<input class="input" type="text" name="user-name" placeholder="" />
 
-						<svg width="20" height="20">
+						<svg class="icon-modal" width="20" height="20">
 							<use href="./images/symbol-defs.svg#icon-envelope"></use>
 						</svg>
 					</label>
 
 					<label>
 						<span>Пароль*</span>
-						<input type="password" name="user-pass" />
-						<svg width="21" height="22">
+						<input class="input" type="password" name="user-pass" />
+						<svg class="icon-modal" width="21" height="22">
 							<use href="./images/symbol-defs.svg#icon-ulocked"></use>
 							<use href="./images/symbol-defs.svg#icon-locked"></use>
 						</svg>
@@ -647,39 +647,30 @@
 						<option>Голосеевський</option>
 						<option>Деснянский</option>
 					</select>
-
-					<div class=payment"" role="group" aria-labelledby="payment-method">
+					<div class="payment" role="group" aria-labelledby="payment-method">
 						<p class="" id="payment-method">Виберите способ оплаты</p>
 						<div class="payment__group">
 							<label class="payment__label">
-								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="visa" checked />
+								<input class=" payment__input" type="radio" name="user-payment" value="visa" checked required/>
 									<span class="payment__icon-check"> 
 										<svg class="payment__icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-visa"></use>
 								</svg></span>
 							</label>
 							<label class="payment__label">
-								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="mastercard"/>
+								<input class="payment__input" type="radio" name="user-payment" value="mastercard" required/>
 									<span class="payment__icon-check">
 										<svg class="payment__icon" width="36" height="32">
 									<use href="./images/symbol-defs.svg#icon-mastercard"></use>
 								</svg></span>
 							</label>
 							<label class="payment__label">
-								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="google-pay"/>
+								<input class=" payment__input" type="radio" name="user-payment" value="google-pay" required/>
 									<span class="payment__icon-check">
 										<svg class="payment__icon" width="36" height="32">
 										<use href="./images/symbol-defs.svg#icon-google-pay"></use>
 									</svg>
 								</span>
-							</label>
-							<label class="payment__label">
-								<input class="visually-hidden payment__input" type="radio" name="user-payment" value="apple-pay"/>
-								<span class="payment__icon-check">
-									<svg class="payment__icon" width="36" height="32">
-									<use href="./images/symbol-defs.svg#icon-apple-pay"></use>
-								</svg>
-							  </span>
 							</label>
 						</div>
 					</div>

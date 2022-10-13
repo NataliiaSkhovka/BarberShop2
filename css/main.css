@@ -469,6 +469,20 @@ img {
           user-select: none;
 }
 
+.icon-modal {
+  fill: #ff6c00;
+}
+
+.input {
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+}
+
+.modal__js-choice {
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+}
+
 /* payment */
 .payment__icon-check {
   -webkit-box-align: center;
@@ -479,11 +493,9 @@ img {
           justify-content: center;
   width: 36px;
   height: 32px;
-  outline: 0px solid #9da4bd;
+  /*outline: 0px solid #ff6c00;*/
   outline-offset: -1px;
   border-radius: 6px;
-  -webkit-transition: outline-color 250ms, background-color 250ms;
-  transition: outline-color 250ms, background-color 250ms;
 }
 
 .payment__group {
@@ -497,21 +509,7 @@ img {
 }
 
 .payment__icon {
-  fill: #9da4bd;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-}
-
-.payment__input:focus + .payment__icon-check {
-  background-color: #ff6c00;
-  fill: #090b13;
-  outline-color: #ff6c00;
-}
-
-.payment__input:checked + .payment__icon-check {
-  background-color: #ff6c00;
-  fill: #090b13;
-  outline-color: #ff6c00;
+  fill: #000;
 }
 
 /* choises select */
