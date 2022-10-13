@@ -1,4 +1,5 @@
 .about{
+@extend %section;
 
   &__container {
     display: flex;

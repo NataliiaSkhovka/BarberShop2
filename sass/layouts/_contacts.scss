@@ -1,4 +1,6 @@
 .contacts {
+  @extend %section;
+  
 	background-color: #191c26;
 	background-image: url(../images/Bg.png);
 	background-repeat: no-repeat;

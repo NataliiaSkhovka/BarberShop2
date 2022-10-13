@@ -1,5 +1,6 @@
 .benefits{
-
+  @extend %section;
+  
   &__container {
     display: flex;
   }
