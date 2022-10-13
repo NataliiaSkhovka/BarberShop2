@@ -34,36 +34,37 @@
 
 	border-radius: 10px;
 	box-shadow: 4px 4px 8px rgba(55, 57, 63, 0.203);
-}
-.modal__close-btn {
-	position: absolute;
-	top: 0;
-	right: 0;
 
-	transform: translate(50%, -50%);
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 30px;
-	height: 30px;
-	padding: 0;
-
-	border: none;
-	border-radius: 50%;
-	fill: var(--main-light-theme);
-	background-color: #fff;
-	box-shadow: 4px 4px 8px rgba(55, 57, 63, 0.203);
-	cursor: pointer;
-	
-}
-.modal__close-btn:hover,
-.modal__close-btn:focus{
-	fill: var(--accent-txt-cl);
-}
-
-.modal__register-form {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
+  &__close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+    transform: translate(50%, -50%);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+  
+    border: none;
+    border-radius: 50%;
+    fill: var(--main-light-theme);
+    background-color: #fff;
+    box-shadow: 4px 4px 8px rgba(55, 57, 63, 0.203);
+    cursor: pointer;
+    
+  }
+  &__close-btn:hover,
+  &__close-btn:focus{
+    fill: var(--accent-txt-cl);
+  }
+  
+  &__register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }

@@ -6,35 +6,37 @@
 	background-color: #191c26;
 
 	transition: background-color var(--anim-slow), backdrop-filter var(--anim-slow), bax-shadow var(--anim-slow);
+
+  &.js-no-transparency {
+    background-color: rgba(16, 18, 27, 0.4);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(25, 28, 38, 0.4);
+  }
+  
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__group {
+    margin-left: auto;
+  }
+  
+  &__contact {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  
+    color: var(--main-dark-theme);
+  }
+  
+  &__btn {
+    margin-left: 40px;
+  }
 }
 
-.header.js-no-transparency {
-	background-color: rgba(16, 18, 27, 0.4);
-	backdrop-filter: blur(10px);
-	box-shadow: 0 4px 10px rgba(25, 28, 38, 0.4);
-}
 
-.header__container {
-	display: flex;
-	align-items: center;
-}
-.header__group {
-	margin-left: auto;
-}
-
-.header__contact {
-	font-weight: 600;
-	font-size: 12px;
-	line-height: 1.33;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
-
-	color: var(--main-dark-theme);
-}
-
-.header__btn {
-	margin-left: 40px;
-}
 
 .nav__list {
 	display: flex;

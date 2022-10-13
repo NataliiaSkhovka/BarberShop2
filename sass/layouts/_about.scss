@@ -1,20 +1,23 @@
-.about__container {
-	display: flex;
-}
+.about{
 
-.about__list {
-	display: flex;
-}
-
-.about__item:not(:last-child) {
-	margin-right: 30px;
-}
-
-.about__group {
-	flex-basis: 500px;
-	margin-left: 64px;
-}
-
-.about__descr {
-	margin-bottom: 40px;
+  &__container {
+    display: flex;
+  }
+  
+  &__list {
+    display: flex;
+  }
+  
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  &__group {
+    flex-basis: 500px;
+    margin-left: 64px;
+  }
+  
+  &__descr {
+    margin-bottom: 40px;
+  }
 }

@@ -15,8 +15,10 @@
 	background-color: rgba(25, 28, 38, 0.2);
 
 	transition: transform var(--anim-fast);
+
+  &__desc {
+    font-size: 18px;
+    color: white;
+  }
 }
-.overlay__desc {
-	font-size: 18px;
-	color: white;
-}
+

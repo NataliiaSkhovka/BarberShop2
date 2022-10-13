@@ -21,31 +21,32 @@
 .social-media {
 	display: flex;
 	justify-content: center;
-}
-.social-media__item:not(:last-child) {
-	margin-right: 10px;
-}
 
-.social-media__link {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 44px;
-	height: 44px;
-	color: #303030;
-	background-color: #fff;
-	border-radius: 50%;
-
-	transition: color var(--anim-fast), background-color var(--anim-fast);
-
-}
-
-.social-media__link:hover,
-.social-media__link:focus {
-	color: #ff6c00;
-	background-color: #555555;
-}
-
-.social-media__icon {
-	fill: currentColor;
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #303030;
+    background-color: #fff;
+    border-radius: 50%;
+  
+    transition: color var(--anim-fast), background-color var(--anim-fast);
+  
+  }
+  
+  &__link:hover,
+  &__link:focus {
+    color: #ff6c00;
+    background-color: #555555;
+  }
+  
+  &__icon {
+    fill: currentColor;
+  }
 }

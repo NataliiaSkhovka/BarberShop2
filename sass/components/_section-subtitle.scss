@@ -4,10 +4,12 @@
 	font-size: 18px;
 	line-height: 1.67;
 	letter-spacing: 0.02em;
-}
-.subtitle--mode-light {
-	color: #555555;
-}
-.subtitle--mode-dark {
-	color: #ffffff;
+
+  &--mode-light {
+    color: #555555;
+  }
+  &--mode-dark {
+    color: #ffffff;
+  }
+  
 }
